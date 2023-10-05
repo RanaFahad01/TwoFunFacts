@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Geomanist;
+  src: url(../Fonts/geomanist.ttf);
+}
+
+@font-face {
+  font-family: Spectral-ExtraBold;
+  src: url(../Fonts/Spectral-ExtraBold.woff);
+}
+
+@font-face {
+  font-family: Spectral-ExtraBoldItalic;
+  src: url(../Fonts/Spectral-ExtraBoldItalic.woff);
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 215, 0, 1) 34%,
+    rgba(0, 192, 163, 1) 100%
+  );
+}
+
+p {
+  font-size: 24px;
+  font-family: Geomanist;
+  color: rgb(233, 233, 233);
+  text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.main-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  border-radius: 25px;
+  border: 8px solid rgb(2, 105, 90);
+}
+
+#greeting-visitor {
+  font-family: Spectral-ExtraBoldItalic;
+  font-size: 45px;
+  color: rgb(219, 217, 217);
+  text-shadow: 0 4px 0 rgb(0, 0, 0);
+  padding: 10px;
+
+  position: relative;
+  width: 30%;
+  min-width: fit-content;
+  margin: 10px;
+  border: 5px solid rgb(1, 70, 59);
+  border-radius: 50px;
+}
+
+.activator-button {
+  font-family: Spectral-ExtraBold;
+  font-size: 25px;
+  padding: 5px;
+  border: 3px solid rgb(0, 130, 153);
+  border-radius: 15px;
+  background-color: rgb(0, 192, 163);
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 5px 0 rgb(0, 0, 0);
+
+  transition-duration: 0.4s;
+}
+
+.activator-button:hover {
+  background-color: aqua;
+}
