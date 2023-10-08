@@ -1,7 +1,7 @@
 # TwoFunFacts
 Simple Web App written in HTML, CSS and JS that displays two random fun facts.
 
-You can check it out [here](https://twofunfacts.web.app/).
+You can check it out <a href="https://twofunfacts.web.app" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## How it works
 The web app has a collection of greetings, goodbyes, facts about the humans and facts about the world.
